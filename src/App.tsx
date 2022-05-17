@@ -10,7 +10,7 @@ import { BrowserRouter as Router, Routes, Route}
 
 function App() {
   const [person , setPerson] = useState({name:"" , phone:"" , email:""})
-  const [newContact , setNewContact] = useState<object[]>([{name:"Dhanish" , phone:"886125571" , email:"maham@g.com"}])
+  const [newContact , setNewContact] = useState<object[]>([{name:"Dani" , phone:"1234567890" , email:"demo@gmail.com"}])
   const [searchText , setSearchText] = useState("")
   
   function changeHandler(e : any) {
