@@ -31,5 +31,11 @@
     border: none;
     background-color: #FF7358;
     color: #fff;
-    align-self:center
+    align-self:center;
+      cursor: pointer;
+    transition: .5s;
+}
+
+.list button:hover {
+    background-color: #d03e3e;
 }
