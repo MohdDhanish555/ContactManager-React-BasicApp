@@ -1,0 +1,25 @@
+.SearchBar-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.SearchBar-container input {
+    padding: 14px;
+    border-radius: 7px;
+    border: none;
+    width: 280px;
+    color: orange;
+    background-color: rgba(255, 255, 255);
+}
+
+.SearchBar-container input:focus {
+    outline: none;
+}
+
+.logo {
+    background-color: #000;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 1rem;
+    background-color: rgba(255,255,255);
+}

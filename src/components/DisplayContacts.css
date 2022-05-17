@@ -1,0 +1,35 @@
+
+.list-container {
+    background-color: rgba(255,255,255);
+    border-radius: 10px;
+    height: 450px;
+    padding: 1rem;
+    overflow-x: hidden;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(222, 215, 215,0.3);
+    padding: 0.6rem;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.list li {
+    list-style: none;
+}
+.list span {
+    color: #AA2323;
+    margin-right: .5rem;
+}
+
+.list button {
+    padding: .4rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #FF7358;
+    color: #fff;
+    align-self:center
+}

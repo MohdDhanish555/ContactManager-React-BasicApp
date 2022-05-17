@@ -1,0 +1,12 @@
+.add-contact-container {
+    margin: 1rem;
+    
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+
